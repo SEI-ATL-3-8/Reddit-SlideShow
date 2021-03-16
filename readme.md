@@ -10,7 +10,6 @@ Reddit sometimes contains some offensive images be careful with your search term
 
 ## Getting Started
 
-* Fork and clone this repository
 * Rough out how you want your basic site to look
 
 ## Requirements/User Experience
