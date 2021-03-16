@@ -38,7 +38,7 @@ It is important to break down any development project in to smaller pieces and t
 * Create your form (HTML/CSS)
 * Prevent default form submission and verify that you can type something into the form
 * Use fetch to make a request. Show data in console
-* Create an array of image URLs (tip: use [filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) and [map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)).
+* Create an array of image URLs (tip: use [map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)).
 * Display those images in a grid. Reddit will probably send you a ton of images so only create a grid of max 5x5 
 * Make the form / title / description hide
 
