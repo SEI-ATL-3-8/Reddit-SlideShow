@@ -39,9 +39,7 @@ It is important to break down any development project in to smaller pieces and t
 * Use fetch to make a request. Show data in console
 * Create an array of image URLs (tip: use [filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) and [map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)).
 * Make the form / title / description hide
-* Cycle through images
-    * tip: use [setInterval](https://developer.mozilla.org/en-US/docs/Web/API/WindowTimers/setInterval)
-    * Either add images, or change the `src` of a single image tag
+
 * Add some interesting style / animation
 * Create button to stop animation (tip: use [clearInterval](https://developer.mozilla.org/en-US/docs/Web/API/WindowTimers/clearInterval)).
 
@@ -57,6 +55,9 @@ It is important to break down any development project in to smaller pieces and t
 ## Bonus
 
 * Make a smooth transition to next slide (e.g., a fade out)
+* * Cycle through images
+    * tip: use [setInterval](https://developer.mozilla.org/en-US/docs/Web/API/WindowTimers/setInterval)
+    * Either add images, or change the `src` of a single image tag
 
 ---
 
