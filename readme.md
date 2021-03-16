@@ -49,7 +49,7 @@ It is important to break down any development project in to smaller pieces and t
 
 ---
 
-![Slide 2](./examples/ajaxexample2.jpg)
+![Slide 2](./examples/ajaxexample3.jpg)
 
 
 ## Bonus
