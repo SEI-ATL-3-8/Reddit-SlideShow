@@ -20,6 +20,7 @@ Reddit sometimes contains some offensive images be careful with your search term
 * A short description telling the user what to do
 * A blank text field
 * A Button ("start" or "go" or "search")
+* Show button when clicked to unhide the search bar.
 
 #### When the user enters a search term and presses enter
 
@@ -41,7 +42,6 @@ It is important to break down any development project in to smaller pieces and t
 * Make the form / title / description hide
 
 * Add some interesting style / animation
-* Create button to stop animation (tip: use [clearInterval](https://developer.mozilla.org/en-US/docs/Web/API/WindowTimers/clearInterval)).
 
 ## Example Deliverables
 
@@ -56,6 +56,8 @@ It is important to break down any development project in to smaller pieces and t
 
 * Make a smooth transition to next slide (e.g., a fade out)
 * * Cycle through images
+* Make grid with all the same size images.
+* Add responsive so that they can grid can adjust.
     * tip: use [setInterval](https://developer.mozilla.org/en-US/docs/Web/API/WindowTimers/setInterval)
     * Either add images, or change the `src` of a single image tag
 
