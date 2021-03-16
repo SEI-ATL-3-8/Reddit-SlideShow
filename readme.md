@@ -27,14 +27,7 @@ Reddit sometimes contains some offensive images be careful with your search term
 * Show a loading message (optional)
 * Fetch related posts from reddit (with `fetch`)
 * Display animation / slideshow of images (with DOM manipulation)
-* Show a button to stop / reset the animation
-* Repeat animation until use clicks "stop"
 
-#### When the user clicks the "stop" button
-
-* Animation stops / images are removed
-* Form / title / description are shown again
-* User can enter a new search term
 
 
 ## Suggested proccess
