@@ -6,7 +6,7 @@ We are going to use what we've learned so far to create a basic slideshow using 
 
 Reddit sometimes contains some offensive images be careful with your search terms. If you want to ensure that you do not get NSFW (Not Safe For Work) items. You can filter it by adding "nsfw:no" to the end of the search query.
 
-**Example:** http://www.reddit.com/search.json?q=cats+nsfw:no
+**Example:** ://www.reddit.com/search.json?q=httpcats+nsfw:no
 
 ## Getting Started
 
@@ -39,10 +39,10 @@ It is important to break down any development project in to smaller pieces and t
 * Prevent default form submission and verify that you can type something into the form
 * Use fetch to make a request. Show data in console
 * Create an array of image URLs (tip: use [map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)).
-* Display those images in a grid. Reddit will probably send you a ton of images so only create a grid of max 5x5 
+* Display those images in a grid. Reddit will probably send you a ton of images so only create a grid of max 5x5
 * Make the form / title / description hide
 
-* Add some interesting style 
+* Add some interesting style
 
 ## Example Deliverables
 

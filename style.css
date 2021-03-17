@@ -1,0 +1,91 @@
+#grid {
+    display: grid;
+    grid-template-columns: repeat(5, 50px);
+    grid-template-rows: repeat(5, 50px);
+    column-gap: 10px;
+    row-gap: 15px;
+
+}
+
+.redditPull {
+
+    height:
+
+}
+
+body {
+    background-color: darkblue;
+    animation: mymove 15s infinite;
+}
+
+@keyframes mymove {
+    from {background-color: yellow;}
+    to {background-color: darkblue;}
+  }
+
+h1 {
+    color: cyan;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-content: center;
+    margin: 25px 0 150px;
+    letter-spacing: .5em;
+    font-size: 55px;
+    font-style: italic;
+    background-color: yellow;
+}
+
+.animate__animated.animate__bounce  {
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+.redditPull {
+    height: 75px;
+    width: 75px;
+    border: 1px solid greenyellow;
+}
+
+.tv {
+    height: 200px;
+    width: 200px;
+    margin: 25px 25px;
+    opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 25;
+	animation-timing-function: ease-in-out;
+	animation-duration: 3s;
+    border: 1px dotted white;
+}
+
+
+.tv2 {
+    height: 200px;
+    width: 200px;
+    margin: 25px 25px;
+    transform: rotateY(180deg);
+    opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 25;
+	animation-timing-function: ease-in;
+	animation-duration: 5s;
+    border: 1px dotted white;
+
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
+form {
+    justify-self: center;
+    margin-left: 150px;
+    margin-top: 45px;
+}
