@@ -1,0 +1,15 @@
+*{
+    border: 1px solid black;
+}
+
+body {
+    background-color: aquamarine;
+    text-align: center;
+}
+
+.catImage {
+    margin: auto;
+    width:500px;
+    height:500px;
+    
+}
