@@ -1,0 +1,25 @@
+#pictureSearch {
+    width: 33%;
+    border: none;
+    border-bottom: 2px solid blue;
+}
+form{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+#container{
+    display: flex;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    flex-wrap:wrap;
+
+}
+
+#container img{
+    display: none;
+    width:100px;
+    height:100px;
+}
