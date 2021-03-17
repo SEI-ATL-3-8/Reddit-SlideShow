@@ -37,6 +37,8 @@ const getData = async searchField => {
             buttonsContainer.classList.add('hide');
         };
 
+        if (!loader.classList.contains('hide')) loader.classList.add('hide');
+
 
         showError(error.message);
     }
