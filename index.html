@@ -3,9 +3,61 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://kit.fontawesome.com/888acd4b49.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
   <title>Hello Front-End</title>
 </head>
 <body>
-  <h1>Hello Front-End</h1>
+  <h1 id="search-gallery-title">"Search Gallery"</h1>
+
+  <div class="container">
+    <form id="search-bar">
+      <input id="input-search" type="text" placeholder="Search an Image">
+      <button  id="button-search"><i class="fas fa-search fa-lg"></i></button>
+    </form>
+
+    <div class="items-container hide">
+      
+    
+
+      <div id="search-content">
+
+
+
+      </div>
+
+
+ 
+    
+    </div>
+
+    <!-- Loader after every search -->
+
+    <div class="hide" id="loader">
+
+
+
+    </div>
+
+ 
+
+
+
+  </div>
+
+  <!-- Buttons for Changing the data -->
+  <div class="buttons-container hide" >
+    <button id="button-stop" class="button-action">Stop</button>
+    <button id="button-back" class="button-action">Back to Search</button>
+  </div>
+  
+  <!-- For Showing Temp Messages -->
+  <div class="hide" id="message-box">
+  </div>
+
+  
+  <script src="script.js"></script>
 </body>
 </html>
