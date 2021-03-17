@@ -1,0 +1,88 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://wallpaper-house.com/data/out/6/wallpaper2you_134723.jpg');
+}
+h1 {
+    color: #ff598f;
+    text-shadow: 1px 1px black;
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 34px;
+}
+section {
+    padding: 50px;
+    width: 750px;
+    height:750px;
+}
+div {
+    margin: 300px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+    box-shadow: 5px 5px #A2DDFD;
+}
+img {
+    width: 150px;
+    height: 147px;
+    border-color: #ff598f;
+    border-radius: 25px;
+}
+input#btn {
+    background: #D6A3F0;
+    background-image: -webkit-linear-gradient(top, #ECD0CD, #f3872f);
+    background-image: -moz-linear-gradient(top, #ECD0CD, #f3872f);
+    background-image: -ms-linear-gradient(top, #ECD0CD, #f3872f);
+    background-image: -o-linear-gradient(top, #ECD0CD, #f3872f);
+    background-image: linear-gradient(to bottom, #ECD0CD, #f3872f);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: 'DotGothic16', sans-serif;
+    text-shadow: 2px 2px rgb(182, 80, 255);
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 200;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+input#btn:hover {
+    background: #f3872f;
+    background-image: -webkit-linear-gradient(top, #f3872f, #D6A3F0);
+    background-image: -moz-linear-gradient(top, #f3872f, #D6A3F0);
+    background-image: -ms-linear-gradient(top, #f3872f, #D6A3F0);
+    background-image: -o-linear-gradient(top, #f3872f, #D6A3F0);
+    background-image: linear-gradient(to bottom, #f3872f, #D6A3F0);
+    text-decoration: none;
+}
+#tinyBox {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+#box {
+    background: #D8C5FD;
+}
+#input1 {
+    font-family: 'DotGothic16', sans-serif;
+    text-align: center;
+    border-radius: 25px;
+}
+#smallBox {
+    margin: 100px;
+    padding: 1px;
+    border: solid 5px;
+    border-bottom-color: #B6E8FF;
+    border-top-color: #DBCFFD;
+    border-left-color: #A9BFF8;
+    border-right-color: #DABCFC;
+    border-radius: 25px;
+}
+.hidden {
+    display: none;
+}
