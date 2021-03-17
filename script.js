@@ -9,12 +9,12 @@ const buttonStop = document.getElementById('button-stop');
 const buttonBack = document.getElementById('button-back');
 
 
-
+// Check if the imageURL ends with the relevant image extensions.
 const checkImageUrl = url => {
     return url.match(/[\/.](jpg|jpeg|png)$/i) !== null;
 }
 
-
+// Get The Data based of Search String, After it should load the grid. 
 const getData = async searchField => {
     try {
         const response = await fetch(`https://www.reddit.com/search.json?q=${searchField}+nsfw:no&limit=300`);
@@ -30,7 +30,7 @@ const getData = async searchField => {
 
         populateGrid(dataImageArray);
     }
-
+    // If anything happened, show a error message onto DOM.
     catch(error) {
         if (searchForm.classList.contains('hide')){ 
             searchForm.classList.remove('hide');
@@ -44,7 +44,7 @@ const getData = async searchField => {
     }
 }
 
-
+// Displays an Error Message
 const showError = (message) => {
     messageBox.classList.remove('hide');
     messageBox.innerText = message;
@@ -55,11 +55,12 @@ const showError = (message) => {
     },2000);
 }
 
-
+// Clears the grid
 const clearGrid = () => {
     searchContent.innerHTML = "";
 }
 
+// Handler for Stop Button
 const stopHandler = (timer,event) => {
     clearInterval(timer);
 
@@ -67,6 +68,7 @@ const stopHandler = (timer,event) => {
     buttonBack.removeEventListener('click',backHandler);
 }
 
+// Handler for back button
 const backHandler = (timer,event) => {
 
     clearInterval(timer);
@@ -80,7 +82,7 @@ const backHandler = (timer,event) => {
     buttonBack.removeEventListener('click',backHandler);
 }
 
-
+// Populate Grid with the array
 const populateGrid = (array) => {
     let index = 0;
     let counter = 0;
@@ -104,7 +106,7 @@ const populateGrid = (array) => {
 }
 
 
-
+// Essentially, this creates a column for the grid
 const createPicture= imageUrl => {
     const pictureContainer = document.createElement('div');
     const img = document.createElement('img');
@@ -116,6 +118,7 @@ const createPicture= imageUrl => {
     return pictureContainer;
 }
 
+// Event Listener for Search Button
 searchForm.addEventListener('submit', (event) => {
     event.preventDefault();
     if (event.target.elements[0].value) {
