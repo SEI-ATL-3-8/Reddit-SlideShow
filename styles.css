@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: rgb(50, 50, 50);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Syne Mono', monospace;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+form > input {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.07);
+    color: rgb(0, 247, 255);
+    text-shadow: 3px 3px 3px black;
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+form .radios {
+    width: 100%;
+    font-size: 1.2rem;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+.radio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+    margin: 0 auto;
+}
+
+#sfw, #nsfw {
+    cursor: pointer;
+}
+
+form input, form button {
+    margin: 15px 0;
+    text-align: center;
+}
+
+form button {
+    background-color: rgba(255, 255, 255, 0.07);
+    color: rgb(54, 153, 29);
+    text-shadow: 1px 1px 1px black;
+    width: 20%;
+    font-size: 1.2rem;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    cursor: pointer;
+}
+
+.resultsDiv {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    position: relative;
+}
+
+.resultsDiv::after {
+    content: 'X';
+    color: white;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    pointer-events: all;
+    cursor: pointer;
+}
+
+.cell {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid black;
+    overflow: hidden;
+    width: 11vw;
+    height: 11vw;
+}
+
+.cell img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hidden {
+    display: none;
+}
+
+.fadein {
+    animation: fadein 3s ease-in;
+}
+
+@keyframes fadein {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
