@@ -1,0 +1,35 @@
+body{
+  display: grid;
+  background: #FFFFFF;
+  justify-content: center;
+  align-items: center;
+  padding: auto;
+  font-family: Arial;
+}
+form{
+    display: grid;
+    background-color: rgb(214, 214, 214);
+    padding: 20px;
+    margin-top: 100px;
+  }
+
+
+  #imageContainer p {
+
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 5vw);
+    grid-gap: 50px;
+  }
+
+  img .indexImg{
+
+    height: 100px;
+    width: 100px;
+
+  }
+
+  img{
+      padding: 5px;
+      background-color: rgb(214, 214, 214);
+  }
