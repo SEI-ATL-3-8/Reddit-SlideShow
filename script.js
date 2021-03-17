@@ -80,7 +80,6 @@ const backHandler = (timer,event) => {
 
 
 const populateGrid = (array) => {
-    let amt = 25;
     let index = 0;
     let counter = 0;
 
