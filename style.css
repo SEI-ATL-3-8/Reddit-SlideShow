@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+  }
+  body{
+    margin: 100px;
+   background: linear-gradient(#e66465, #9198e5);
+   text-align: center;
+   font-family: 'Patrick Hand';
+   font-size: 40px;
+  }
+
+  .ugh{
+   height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+  }
+
+ .container{
+    margin: 75px;
+    padding: 20px;
+    text-align: center;
+    position: absolute;
+    background-color: rgb(165, 158, 158,);
+ }
+
+ .picgrid{
+    max-width: 600px;
+    max-height: 600px;
+    min-height: 600px;
+    min-width: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr ;
+    gap:10px;
+    align-items: center;
+    justify-content: center;
+ }
+ .pic{
+   height: 300px;
+   width: 300px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .text-line {
+   background-color: transparent;
+   color: #eeeeee;
+   outline: none;
+   outline-style: none;
+   border-top: none;
+   border-left: none;
+   border-right: none;
+   border-bottom: solid #eeeeee 1px;
+   padding: 3px 10px;
+   text-align: center;
+}
+.again:hover{
+   color: white;
+   cursor: pointer;
+}
+
+
+.button:hover{
+   color: white;
+   cursor: pointer;
+}
+.hide{
+   display:none;
+}
