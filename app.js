@@ -1,7 +1,7 @@
 console.log('hello from app.js')
 
 const form = document.querySelector('form')
-const btn = document.querySelector('button')
+// const btn = document.querySelector('button')
 const resultsDiv = document.querySelector('.resultsDiv')
 const cells = document.querySelectorAll('.cell')
 
@@ -25,10 +25,8 @@ async function fetchData(txt, safety) {
         const req = await fetch(`http://www.reddit.com/search.json?q=r/${txt}${filter}&limit=100&sort=top`)
         const res = await req.json()
         const dataArr = res.data.children
-        // console.log(dataArr)
         resultsDiv.classList.toggle('hidden')
         const filteredArr = dataArr.filter(i => i.data.thumbnail.includes('jpg'))
-        // console.log(filteredArr)
         buildImg(filteredArr)
     } catch (error) {
         console.log(error)
