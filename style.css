@@ -1,0 +1,24 @@
+#imgContainer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    border: 2px solid black;
+    height: 1000px;
+    width: 1000px;
+    margin: 50px;
+}
+
+.grid-square {
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.sky-img {
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+    background-color: white;
+  
+  }
