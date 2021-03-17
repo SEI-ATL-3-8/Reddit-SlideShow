@@ -3,9 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Hello Front-End</title>
+  <title>Reddit Slideshow</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src='js/main.js' async defer></script>
 </head>
 <body>
-  <h1>Hello Front-End</h1>
+  <div class='input'>
+    <h1>Reddit Slideshow!</h1>
+    <h4>Show me pictures about:</h3>
+    <div class='fields'>
+      <input type="text" name='text' id='text'>
+      <button id='search'>Search</button>
+    </div>
+  </div>
+
+  <button class='hidden' id='show'>Search More</button>
+
+  <div class='images hidden'></div>
 </body>
 </html>
