@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.container {
+    background-image: url('https://static.boredpanda.com/blog/wp-content/uploads/2019/12/Bj5j1ytnR5Y-png__880.jpg');
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    text-align: center;
+}
+
+hr {
+    width: 250px;
+}
+
+button {
+    background: #ff5700;
+    color: white;
+}
+
+.frenchiePic {
+    width: 75px;
+    height: 75px;
+    border: 1px solid;
+}
+
+.frenchie {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
