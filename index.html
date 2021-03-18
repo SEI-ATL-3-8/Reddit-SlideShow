@@ -3,9 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Hello Front-End</title>
+  <title>Reddit cats</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Hello Front-End</h1>
+  <h1>Cats for days</h1>
+
+  <section id="before-slideshow">
+    
+  <label for="user-input">What do you want to see?</label>
+  <input type="text" id="user-input">
+  <button id="start-show">Click here</button>
+
+  </section>
+    
+  <section id="slideshow" class="hidden">
+    <button id="stop-slideshow">Stop</button>
+    <img id="slideshow-img" src="" alt=""> 
+  </section>
+
+  <script src="script.js"></script>
 </body>
 </html>
